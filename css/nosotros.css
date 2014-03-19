@@ -62,11 +62,11 @@ nav .menu li {
 	width: 100%;
 	top: 172px;
 }
+
 .miniparte {
 	position: relative;
 }
 .franja{
-
 }
 .fondo img {
 	position: center;
@@ -77,11 +77,9 @@ nav .menu li {
 .miniparte2 {
 	position: relative;
 }
-
 .franja2{
 	height: 270px;
 }
-
 .subtitulo2{
 	position: absolute;
 	top: 30px;
@@ -91,37 +89,50 @@ nav .menu li {
 	font-size: 28px;
 	color: #2e3092;
 	width: 800px;
-
 }
 
-
-.miniparte3{
+------------------------
+.minparte3{
 	position: relative;
 }
-.empresa{
-	height: 330px;
+.trabajo {
+	height: 370px;
 }
-
-.manos img {
+.manoss img{
+	position: relative;
+	width: 235px;
+	height: 182px;
+	left: 280px;
+	top: 70px;
+}
+.palabras{
 	position: absolute;
-	width: 69px;
-	height: 159px;
+	width: 530px;
 	right: 280px;
-	top: 25px;
 }
 
+.subtitulo3, .letras{
+	color: #7e7f7a;
+	font-size: 26px;
+}
+.subtitulo3 {
+	font-family: "Quicksand-Bold";
+	}
+.letras{
+	font-family: "Quicksand-Regular";
+	}
 
+------------------------------
 .pie {
 	position: relative;
 }
-
 .dedos {
+	position: relative;
 	background: #f5fafc;
 	height: 270px;
 }
-
 .conectado {
-	position: absolute;
+	position: relative;
 	top: 20px;
 	left: 310px;
 	font-family: arial;
@@ -130,7 +141,6 @@ nav .menu li {
 	color: #2e3092;
 	width: 320px;
 }
-
 .face img {
 	position: absolute;
 	width: 75px;
@@ -138,7 +148,6 @@ nav .menu li {
 	left: 380px;
 	top: 140px;
 }
-
 .twit img {
 	position: absolute;
 	width: 75px;
@@ -146,7 +155,6 @@ nav .menu li {
 	left: 470px;
 	top: 140px;
 }
-
 .empresa {
 	position: absolute;
 	top: 140px;
@@ -157,7 +165,6 @@ nav .menu li {
 	color: #2e3092;
 	width: 320px;
 }
-
 .empresalogo img {
 	position: absolute;
 	width: 75px;
