@@ -1,0 +1,199 @@
+@font-face {
+	font-family: 'Quicksand-Regular';
+	src:url('../font/Quicksand-Regular.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Quicksand-Bold';
+	src:url('../font/Quicksand-Bold.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+header {
+	background: #f5fafc;
+	position: absolute;
+	height: 172px;
+	width: 100%;
+}
+
+.logo{
+	position: absolute;
+	top: 23px;
+	left: 220px;
+}
+img{
+	height: 130px;
+	width: 190px;
+}
+.titulo{
+	position: absolute;
+	top: 31px;
+	width: 190px;
+	font-family: arial;
+	font-size: 16px;
+	text-align: center;
+	color: #2e3092;
+	left: 450px;
+}
+nav .menu {
+	position: absolute;
+	width: 400px;
+	right: 190px;
+	top: 95px;
+
+}
+nav .menu a {
+	text-decoration: none;
+	font-family: "Quicksand-Bold";
+	font-size: 18px;
+	color: #2e3092;
+	margin: 15px;
+}
+nav .menu li {
+	display: inline-block;
+}
+
+.partes{
+	position: absolute;
+	max-width: 2880px;
+	width: 100%;
+	top: 172px;
+}
+
+.miniparte {
+	position: relative;
+}
+.franja{
+}
+.fondo img {
+	position: center;
+	width: 100%;
+	height: 126px;
+}
+-------------------------
+.minparte2{
+	position: relative;
+}
+
+.dely {
+	height: 300px;
+}
+.palabras2{
+	position: absolute;
+	width: 530px;
+	right: 280px;
+}
+.manoss2 img{
+	position: relative;
+	width: 120px;
+	height: 100px;
+	left: 370px;
+	top: 70px;
+}
+.subtitulo4{
+	font-family: "Quicksand-Bold";
+	font-size: 45px;
+	color: #2e3092;
+}
+.letras2{
+	font-family: "Quicksand-Regular";
+	font-size: 26px;
+	color: #2e3092;
+}
+------------------------
+.minparte3{
+	position: relative;
+}
+.trabajo {
+	height: 370px;
+}
+.manoss img{
+	position: relative;
+	width: 235px;
+	height: 182px;
+	left: 280px;
+	top: 70px;
+}
+.palabras{
+	position: absolute;
+	width: 530px;
+	right: 280px;
+}
+
+.subtitulo3, .letras{
+	color: #7e7f7a;
+}
+.subtitulo3 {
+	font-family: "Quicksand-Bold";
+	font-size: 45px;
+	}
+.letras{
+	font-family: "Quicksand-Bold";
+	font-size: 26px;
+	}
+.letras-1{
+	font-family: "Quicksand-Regular";
+	font-size: 24px;
+	color: #7e7f7a;
+}
+
+.mapa {
+	text-decoration: none;
+	font-family: "Quicksand-Regular";
+	font-size: 18px;
+	color: #3a8ccc;
+	margin: 15px;
+}
+------------------------------
+.pie {
+	position: relative;
+}
+.dedos {
+	position: relative;
+	background: #f5fafc;
+	height: 270px;
+}
+.conectado {
+	position: relative;
+	top: 20px;
+	left: 310px;
+	font-family: arial;
+	text-align: center;
+	font-size: 32px;
+	color: #2e3092;
+	width: 320px;
+}
+.face img {
+	position: absolute;
+	width: 75px;
+	height: 75px;
+	left: 380px;
+	top: 140px;
+}
+.twit img {
+	position: absolute;
+	width: 75px;
+	height: 75px;
+	left: 470px;
+	top: 140px;
+}
+.empresa {
+	position: absolute;
+	top: 140px;
+	right: 310px;
+	font-family: arial;
+	text-align: center;
+	font-size: 18px;
+	color: #2e3092;
+	width: 320px;
+}
+.empresalogo img {
+	position: absolute;
+	width: 75px;
+	height: 75px;
+	right: 430px;
+	top: 60px;
+}
