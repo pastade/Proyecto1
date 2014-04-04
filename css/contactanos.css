@@ -85,7 +85,7 @@ nav .menu li {
 	right: 380px;
 	left: 310px;
 	top: 20px;
-	height: 700px;
+	height: 1000px;
 
 }
 .conectate{
@@ -114,20 +114,49 @@ nav .menu li {
 	top: 380px;
 }
 .nombre {
-	position: absolute;
+	position: relative;
 }
-.1 {
+.ab {
+	position: relative;
     font-family: "Quicksand-Regular";
-    font-size: 20;
+    font-size: 20px;
+    top: 50px;
+    left: 150px;
+    color: #7e7f7a;
 }
 
 .caja1{
     position: absolute;
-    top: 0px;
+    top: 50px;
     left: 300px;
 	height: 40px;
 	width: 300px;
 }
+.caja2{
+    position: absolute;
+    top: 50px;
+    left: 300px;
+	height: 300px;
+	width: 300px;
+	resize: none;
+} 
+
+.boton {
+	position: relative;
+	top: 320px;
+	left: 530px;
+}
+
+.entrar1 {
+	text-decoration: none;
+	background: #b25511;
+	padding: 0.5em 1em;
+	border-radius: 5px 5px 5px 5px;
+    color: #ffffff;
+	margin-top: -2em;
+    box-shadow: 5px 5px 5px rgba(4,4,4,0.2);
+}
+
 -------------
 .pie {
 	position: relative;
