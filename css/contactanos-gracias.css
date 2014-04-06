@@ -1,0 +1,173 @@
+@font-face {
+	font-family: 'Quicksand-Regular';
+	src:url('../font/Quicksand-Regular.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Quicksand-Bold';
+	src:url('../font/Quicksand-Bold.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+header {
+	background: #f5fafc;
+	position: absolute;
+	height: 172px;
+	width: 100%;
+}
+
+.logo{
+	position: absolute;
+	top: 23px;
+	left: 220px;
+}
+img{
+	height: 130px;
+	width: 190px;
+}
+.titulo{
+	position: absolute;
+	top: 31px;
+	width: 190px;
+	font-family: arial;
+	font-size: 16px;
+	text-align: center;
+	color: #2e3092;
+	left: 450px;
+}
+nav .menu {
+	position: absolute;
+	width: 400px;
+	right: 190px;
+	top: 95px;
+
+}
+nav .menu a {
+	text-decoration: none;
+	font-family: "Quicksand-Bold";
+	font-size: 18px;
+	color: #2e3092;
+	margin: 15px;
+}
+nav .menu li {
+	display: inline-block;
+}
+
+.partes{
+	position: absolute;
+	max-width: 2880px;
+	width: 100%;
+	top: 172px;
+}
+
+.miniparte {
+	position: relative;
+}
+.franja{
+}
+.fondo img {
+	position: center;
+	width: 100%;
+	height: 126px;
+}
+
+-----
+.marco {
+	position: relative;
+}
+.lineas{
+	position: relative;
+	border: #7e7f7a 1px solid;
+	width: 800px;
+	right: 380px;
+	left: 310px;
+	top: 20px;
+	height: 410px;
+
+}
+.conectate{
+	position: absolute;
+	top: 70px;
+	font-family: "Quicksand-Bold";
+	font-size: 14px;
+	color: #2e3092;
+	left: 300px;
+}
+.chica img{
+	position: absolute;
+	width: 210px;
+	height: 328px;
+}
+.llama{
+	position: absolute;
+	top: 160px;
+	left: 240px;
+	font-family: "Quicksand-Bold";
+	color: #91928e;
+	width: 500px;
+	text-align: center;
+}
+
+.enlace {
+	position: absolute;
+	top: 320px;
+	text-decoration: none;
+	font-family: "Quicksand-Regular";
+	font-size: 18px;
+	color: #3a8ccc;
+	margin: 15px;
+	right: 80px;
+}
+-------------
+.pie {
+	position: relative;
+}
+.dedos {
+	position: relative;
+	background: #f5fafc;
+	height: 270px;
+}
+.conectado {
+	position: relative;
+	top: 20px;
+	left: 310px;
+	font-family: arial;
+	text-align: center;
+	font-size: 32px;
+	color: #2e3092;
+	width: 320px;
+}
+.face img {
+	position: absolute;
+	width: 75px;
+	height: 75px;
+	left: 380px;
+	top: 140px;
+}
+.twit img {
+	position: absolute;
+	width: 75px;
+	height: 75px;
+	left: 470px;
+	top: 140px;
+}
+.empresa {
+	position: absolute;
+	top: 140px;
+	right: 310px;
+	font-family: arial;
+	text-align: center;
+	font-size: 18px;
+	color: #2e3092;
+	width: 320px;
+}
+.empresalogo img {
+	position: absolute;
+	width: 75px;
+	height: 75px;
+	right: 430px;
+	top: 60px;
+}
