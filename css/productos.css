@@ -79,16 +79,16 @@ nav .menu li {
 }
 .producto {
 	position: relative;
-	background: blue;
 	width: 100%;
-	height: 500px;
+	height: 510px;
+	top: 30px;
 }
 .descripcion {
 	position: absolute;
 	width: 370px;
-	background: yellow;
-	height: 450px;
-	left: 100px;
+	height: 320px;
+	left: 300px;
+	top: 90px;
 }
 .des-text {
 	font-family: "Quicksand-Regular";
@@ -97,20 +97,21 @@ nav .menu li {
 }
 .presentacion {
 	position: absolute;
-	width: 500px;
-	background: red;
-    height: 450px;
-    right: 100px;
+	width: 345px;
+	background: #f5f4f4;
+    height: 500px;
+    right: 300px;
 }
 .productos {
-
+	position: relative;
+	top: 20px;
 }
 
 .pductimg2-1 img {
 	position: absolute;
 	width: 69px;
 	height: 159px;
-	right: 280px;
+	right: 30px;
 	top: 25px;
 }
 
@@ -118,7 +119,7 @@ nav .menu li {
 	position: absolute;
 	width: 69px;
 	height: 159px;
-	right: 349px;
+	right: 99px;
 	top: 85px;
 }
 
@@ -126,7 +127,7 @@ nav .menu li {
 	position: absolute;
 	width: 69px;
 	height: 159px;
-	right: 418px;
+	right: 168px;
 	top: 85px;
 }
 
@@ -134,8 +135,96 @@ nav .menu li {
 	position: absolute;
 	width: 69px;
 	height: 159px;
-	right: 487px;
+	right: 237px;
 	top: 25px;
+}
+.llevate{
+	position: absolute;
+	top: 300px;
+	width: 100%;
+	left: 10px;
+}
+.forma1 {
+	width: 120px;
+	text-align: center;
+	font-family: "Quicksand-Bold";
+	color: #2e3092;
+}
+.forma2 {
+	position: absolute;
+	width: 10px;
+	font-size: 90px;
+	top: -60px;
+	font-family: "Quicksand-Bold";
+	color: red;
+	left: 140px;
+}
+.forma3 {
+	position: absolute;
+	width: 10px;
+	font-size: 20px;
+	top: 64px;
+	font-family: "Quicksand-Bold";
+	color: red;
+	left: 170px;
+}
+.forma4 {
+	position: absolute;
+	font-size: 45px;
+	top: 12px;
+	font-family: "Quicksand-Regular";
+	color: #575851;
+	left: 210px;
+}
+.sanitario {
+	position: absolute;
+	font-size: 16px;
+	top: 450px;
+	font-family: "Quicksand-Regular";
+	color: #2e3092;
+	width: 100%;
+	text-align: center;
+}
+
+.beneficios {
+	position: relative;
+}
+.redaccion {
+	position: relative;
+	width: 900px;
+	height: 620px;
+	top: 30px;
+	left: 250px;
+}
+.negrita {
+	color: #2e3092;
+	font-family: "Quicksand-Bold";
+	font-size: 35px;
+}
+p {
+	color: #575851;
+	font-family: "Quicksand-Regular";
+	font-size: 25px;
+}
+.enlace2 {
+	position: absolute;
+	top: 550px;
+	text-decoration: none;
+	font-family: "Quicksand-Regular";
+	font-size: 18px;
+	color: #3a8ccc;
+	margin: 15px;
+	right: 400px;
+}
+.enlace3 {
+	position: absolute;
+	top: 550px;
+	text-decoration: none;
+	font-family: "Quicksand-Regular";
+	font-size: 18px;
+	color: #3a8ccc;
+	margin: 15px;
+	right: 800px;
 }
 
 -------------
