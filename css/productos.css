@@ -81,8 +81,63 @@ nav .menu li {
 	position: relative;
 	background: blue;
 	width: 100%;
-	height: 400px;
+	height: 500px;
 }
+.descripcion {
+	position: absolute;
+	width: 370px;
+	background: yellow;
+	height: 450px;
+	left: 100px;
+}
+.des-text {
+	font-family: "Quicksand-Regular";
+	font-size: 28px;
+	color: #2e3092;
+}
+.presentacion {
+	position: absolute;
+	width: 500px;
+	background: red;
+    height: 450px;
+    right: 100px;
+}
+.productos {
+
+}
+
+.pductimg2-1 img {
+	position: absolute;
+	width: 69px;
+	height: 159px;
+	right: 280px;
+	top: 25px;
+}
+
+.pductimg2-2 img {
+	position: absolute;
+	width: 69px;
+	height: 159px;
+	right: 349px;
+	top: 85px;
+}
+
+.pductimg2-3 img {
+	position: absolute;
+	width: 69px;
+	height: 159px;
+	right: 418px;
+	top: 85px;
+}
+
+.pductimg2-4 img {
+	position: absolute;
+	width: 69px;
+	height: 159px;
+	right: 487px;
+	top: 25px;
+}
+
 -------------
 .pie {
 	position: relative;
