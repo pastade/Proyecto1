@@ -1,5 +1,8 @@
-.partes{
+.partes, .descripcion, .presentacion, .pductimg2-1 img, .pductimg2-2 img, .pductimg2-3 img, .pductimg2-4 img, .llevate, .forma2, .forma3, .forma4, .sanitario, .enlace2, .enlace3{
 	position: absolute;
+}
+
+.partes{
 	max-width: 2880px;
 	width: 100%;
 	top: 172px;
@@ -26,7 +29,6 @@
 	top: 30px;
 }
 .descripcion {
-	position: absolute;
 	width: 370px;
 	height: 320px;
 	left: 300px;
@@ -38,7 +40,6 @@
 	color: #2e3092;
 }
 .presentacion {
-	position: absolute;
 	width: 345px;
 	background: #f5f4f4;
     height: 500px;
@@ -50,7 +51,6 @@
 }
 
 .pductimg2-1 img {
-	position: absolute;
 	width: 69px;
 	height: 159px;
 	right: 30px;
@@ -58,7 +58,6 @@
 }
 
 .pductimg2-2 img {
-	position: absolute;
 	width: 69px;
 	height: 159px;
 	right: 99px;
@@ -66,7 +65,6 @@
 }
 
 .pductimg2-3 img {
-	position: absolute;
 	width: 69px;
 	height: 159px;
 	right: 168px;
@@ -74,14 +72,12 @@
 }
 
 .pductimg2-4 img {
-	position: absolute;
 	width: 69px;
 	height: 159px;
 	right: 237px;
 	top: 25px;
 }
 .llevate{
-	position: absolute;
 	top: 300px;
 	width: 100%;
 	left: 10px;
@@ -93,7 +89,6 @@
 	color: #2e3092;
 }
 .forma2 {
-	position: absolute;
 	width: 10px;
 	font-size: 90px;
 	top: -60px;
@@ -102,7 +97,6 @@
 	left: 140px;
 }
 .forma3 {
-	position: absolute;
 	width: 10px;
 	font-size: 20px;
 	top: 64px;
@@ -111,7 +105,6 @@
 	left: 170px;
 }
 .forma4 {
-	position: absolute;
 	font-size: 45px;
 	top: 12px;
 	font-family: "Quicksand-Regular";
@@ -119,7 +112,6 @@
 	left: 210px;
 }
 .sanitario {
-	position: absolute;
 	font-size: 16px;
 	top: 450px;
 	font-family: "Quicksand-Regular";
@@ -149,7 +141,6 @@ p {
 	font-size: 25px;
 }
 .enlace2 {
-	position: absolute;
 	top: 550px;
 	text-decoration: none;
 	font-family: "Quicksand-Regular";
@@ -159,7 +150,6 @@ p {
 	right: 400px;
 }
 .enlace3 {
-	position: absolute;
 	top: 550px;
 	text-decoration: none;
 	font-family: "Quicksand-Regular";

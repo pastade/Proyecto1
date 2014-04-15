@@ -1,5 +1,8 @@
-.partes{
+.partes, .conectate, .chica img, .llama, .enlace {
 	position: absolute;
+}
+
+.partes{
 	max-width: 2880px;
 	width: 100%;
 	top: 172px;
@@ -31,7 +34,6 @@
 
 }
 .conectate{
-	position: absolute;
 	top: 70px;
 	font-family: "Quicksand-Bold";
 	font-size: 14px;
@@ -39,12 +41,10 @@
 	left: 300px;
 }
 .chica img{
-	position: absolute;
 	width: 210px;
 	height: 328px;
 }
 .llama{
-	position: absolute;
 	top: 160px;
 	left: 240px;
 	font-family: "Quicksand-Bold";
@@ -54,7 +54,6 @@
 }
 
 .enlace {
-	position: absolute;
 	top: 320px;
 	text-decoration: none;
 	font-family: "Quicksand-Regular";

@@ -1,5 +1,8 @@
-.partes{
+.partes, .conectate, .chica img, .llama, .ingresodata, .caja1, .caja2 {
 	position: absolute;
+}
+
+.partes{
 	max-width: 2880px;
 	width: 100%;
 	top: 172px;
@@ -31,7 +34,6 @@
 
 }
 .conectate{
-	position: absolute;
 	top: 70px;
 	font-family: "Quicksand-Regular";
 	font-size: 14px;
@@ -39,12 +41,10 @@
 	left: 230px;
 }
 .chica img{
-	position: absolute;
 	width: 210px;
 	height: 328px;
 }
 .llama{
-	position: absolute;
 	top: 330px;
 	font-family: "Quicksand-Bold";
 	color: #91928e;
@@ -64,7 +64,6 @@
 
 }
 .ingresodata{
-	position: absolute;
 	top: 380px;
 }
 .nombre {
@@ -80,14 +79,12 @@
 }
 
 .caja1{
-    position: absolute;
     top: 50px;
     left: 300px;
 	height: 40px;
 	width: 300px;
 }
 .caja2{
-    position: absolute;
     top: 50px;
     left: 300px;
 	height: 300px;
