@@ -26,14 +26,14 @@
 	position: absolute;
 	top: 30px;
 	text-align: center;
-	left: 260px;
+	left: 10px;
 	font-family: "Quicksand-Bold";
 	font-size: 28px;
 	color: #2e3092;
-	width: 800px;
+	width: 600px;
 }
 
-------------------------
+
 .minparte3{
 	position: relative;
 }
@@ -44,18 +44,18 @@
 	position: relative;
 	width: 235px;
 	height: 182px;
-	left: 280px;
+	left: 380px;
 	top: 70px;
 }
 .palabras{
 	position: absolute;
-	width: 530px;
-	right: 280px;
+	width: 345px;
+	right: 265px;
 }
 
 .subtitulo3, .letras{
 	color: #7e7f7a;
-	font-size: 26px;
+	font-size: 20px;
 }
 .subtitulo3 {
 	font-family: "Quicksand-Bold";
@@ -64,4 +64,116 @@
 	font-family: "Quicksand-Regular";
 	}
 
-------------------------------
+@media screen and (min-width: 650px) {
+.subtitulo2{
+	left: 10px;
+	font-size: 28px;
+	width: 770px;
+}
+.manoss img{
+	width: 235px;
+	height: 182px;
+	left: 20px;
+	top: 70px;
+}
+.palabras{
+	width: 470px;
+	right: 20px;
+}
+.subtitulo3, .letras{
+	font-size: 24px;
+}
+}
+
+@media screen and (min-width: 810px) {
+.subtitulo2{
+	left: 20px;
+	font-size: 28px;
+	width: 800px;
+}
+.manoss img{
+	width: 235px;
+	height: 182px;
+	left: 30px;
+	top: 70px;
+}
+.palabras{
+	width: 530px;
+	right: 30px;
+}
+.subtitulo3, .letras{
+	font-size: 26px;
+}
+}
+
+@media screen and (min-width: 950px) {
+.subtitulo2{
+	left: 90px;
+}
+.manoss img{
+	left: 90px;
+}
+.palabras{
+	right: 90px;
+}
+}
+
+@media screen and (min-width: 990px) {
+.subtitulo2{
+	left: 180px;
+}
+.manoss img{
+	left: 180px;
+}
+.palabras{
+	right: 180px;
+}
+}
+
+@media screen and (min-width: 1270px) {
+.subtitulo2{
+	left: 220px;
+}
+.manoss img{
+	left: 250px;
+}
+.palabras{
+	right: 250px;
+}
+}
+
+@media screen and (min-width: 1430px) {
+.subtitulo2{
+	left: 250px;
+}
+.manoss img{
+	left: 300px;
+}
+.palabras{
+	right: 300px;
+}
+}
+
+@media screen and (min-width: 1590px) {
+.subtitulo2{
+	left: 350px;
+}
+.manoss img{
+	left: 400px;
+}
+.palabras{
+	right: 400px;
+}
+}
+
+@media screen and (min-width: 1910px) {
+.subtitulo2{
+	left: 500px;
+}
+.manoss img{
+	left: 550px;
+}
+.palabras{
+	right: 550px;
+}
+}
