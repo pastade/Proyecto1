@@ -11,18 +11,17 @@
 .miniparte {
 	position: relative;
 }
-.franja{
-}
+
 .fondo img {
 	position: center;
 	width: 100%;
 	height: 126px;
 }
 
------
 .marco {
 	position: relative;
 }
+
 .lineas{
 	position: relative;
 	border: #7e7f7a 1px solid;
@@ -31,8 +30,8 @@
 	left: 310px;
 	top: 20px;
 	height: 1000px;
-
 }
+
 .conectate{
 	top: 70px;
 	font-family: "Quicksand-Regular";
@@ -40,10 +39,12 @@
 	color: #2e3092;
 	left: 230px;
 }
+
 .chica img{
 	width: 210px;
 	height: 328px;
 }
+
 .llama{
 	top: 330px;
 	font-family: "Quicksand-Bold";
@@ -71,22 +72,22 @@
 }
 .ab {
 	position: relative;
-    font-family: "Quicksand-Regular";
-    font-size: 20px;
-    top: 50px;
-    left: 150px;
-    color: #7e7f7a;
+	font-family: "Quicksand-Regular";
+	font-size: 20px;
+	top: 50px;
+	left: 150px;
+	color: #7e7f7a;
 }
 
 .caja1{
-    top: 50px;
-    left: 300px;
+	top: 50px;
+	left: 300px;
 	height: 40px;
 	width: 300px;
 }
 .caja2{
-    top: 50px;
-    left: 300px;
+	top: 50px;
+	left: 300px;
 	height: 300px;
 	width: 300px;
 	resize: none;
@@ -103,9 +104,7 @@
 	background: #b25511;
 	padding: 0.5em 1em;
 	border-radius: 5px 5px 5px 5px;
-    color: #ffffff;
+	color: #ffffff;
 	margin-top: -2em;
-    box-shadow: 5px 5px 5px rgba(4,4,4,0.2);
+	box-shadow: 5px 5px 5px rgba(4,4,4,0.2);
 }
-
--------------
