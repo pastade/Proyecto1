@@ -1,0 +1,357 @@
+.partes, .descripcion, .presentacion, .pductimg2-1 img, .pductimg2-2 img, .pductimg2-3 img, .pductimg2-4 img, .llevate, .forma2, .forma3, .forma4, .sanitario, .enlace2, .enlace3{
+	position: absolute;
+}
+
+.partes{
+	max-width: 2880px;
+	width: 100%;
+	top: 172px;
+}
+
+.miniparte {
+	position: relative;
+}
+.franja{
+}
+.fondo img {
+	position: center;
+	width: 100%;
+	height: 126px;
+}
+
+.general {
+	position: relative;
+}
+.producto {
+	position: relative;
+	width: 100%;
+	height: 510px;
+	top: 30px;
+}
+.descripcion {
+	width: 230px;
+	height: 320px;
+	top: 90px;
+	left: 10px;
+}
+.des-text {
+	font-family: "Quicksand-Regular";
+	font-size: 20px;
+	color: #2e3092;
+}
+.presentacion {
+	width: 345px;
+	background: #f5f4f4;
+    height: 500px;
+    right: 10px;
+}
+.productos {
+	position: relative;
+	top: 20px;
+}
+
+.pductimg2-1 img {
+	width: 69px;
+	height: 159px;
+	right: 30px;
+	top: 25px;
+}
+
+.pductimg2-2 img {
+	width: 69px;
+	height: 159px;
+	right: 99px;
+	top: 85px;
+}
+
+.pductimg2-3 img {
+	width: 69px;
+	height: 159px;
+	right: 168px;
+	top: 85px;
+}
+
+.pductimg2-4 img {
+	width: 69px;
+	height: 159px;
+	right: 237px;
+	top: 25px;
+}
+.llevate{
+	top: 300px;
+	width: 100%;
+	left: 10px;
+}
+.forma1 {
+	width: 120px;
+	text-align: center;
+	font-family: "Quicksand-Bold";
+	color: #2e3092;
+}
+.forma2 {
+	width: 10px;
+	font-size: 90px;
+	top: -60px;
+	font-family: "Quicksand-Bold";
+	color: red;
+	left: 140px;
+}
+.forma3 {
+	width: 10px;
+	font-size: 20px;
+	top: 64px;
+	font-family: "Quicksand-Bold";
+	color: red;
+	left: 170px;
+}
+.forma4 {
+	font-size: 45px;
+	top: 12px;
+	font-family: "Quicksand-Regular";
+	color: #575851;
+	left: 210px;
+}
+.sanitario {
+	font-size: 16px;
+	top: 450px;
+	font-family: "Quicksand-Regular";
+	color: #2e3092;
+	width: 100%;
+	text-align: center;
+}
+
+.beneficios {
+	position: relative;
+}
+.redaccion {
+	position: relative;
+	width: 620px;
+	height: 620px;
+	top: 30px;
+	left: 10px;
+}
+.negrita {
+	color: #2e3092;
+	font-family: "Quicksand-Bold";
+	font-size: 22px;
+}
+p {
+	color: #575851;
+	font-family: "Quicksand-Regular";
+	font-size: 20px;
+}
+.enlace2 {
+	top: 550px;
+	text-decoration: none;
+	font-family: "Quicksand-Regular";
+	font-size: 18px;
+	color: #3a8ccc;
+	margin: 15px;
+	right: 150px;
+}
+.enlace3 {
+	top: 550px;
+	text-decoration: none;
+	font-family: "Quicksand-Regular";
+	font-size: 18px;
+	color: #3a8ccc;
+	margin: 15px;
+	right: 350px;
+}
+
+@media screen and (min-width: 650px) {
+.descripcion {
+	width: 370px;
+	left: 15px;
+}
+.presentacion {
+    right: 15px;
+}
+
+.redaccion {
+	left: 20px;
+	width: 770px;
+}
+
+.des-text {
+	font-size: 28px;
+}
+
+.negrita {
+	font-size: 30px;
+}
+p {
+	font-size: 22px;
+}
+
+.enlace2 {
+	right: 200px;
+}
+.enlace3 {
+	right: 400px;
+}
+
+}
+@media screen and (min-width: 810px) {
+.descripcion {
+	left: 20px;
+}
+.presentacion {
+    right: 20px;
+}
+
+.redaccion {
+	left: 20px;
+	width: 800px;
+}
+.negrita {
+	font-size: 32px;
+}
+p {
+	font-size: 22px;
+}
+.enlace2 {
+	right: 250px;
+}
+.enlace3 {
+	right: 450px;
+}
+
+}
+@media screen and (min-width: 950px) {
+.descripcion {
+	left: 45px;
+}
+.presentacion {
+    right: 45px;
+}
+
+.redaccion {
+	left: 20px;
+	width: 900px;
+}
+.negrita {
+	font-size: 35px;
+}
+p {
+	font-size: 25px;
+}
+.enlace2 {
+	right: 330px;
+}
+.enlace3 {
+	right: 530px;
+}
+
+}
+@media screen and (min-width: 990px) {
+.descripcion {
+	left: 150px;
+}
+.presentacion {
+    right: 150px;
+}
+.redaccion {
+	left: 120px;
+}
+.enlace2 {
+	right: 370px;
+}
+.enlace3 {
+	right: 570px;
+}
+
+}
+@media screen and (min-width: 1270px) {
+.descripcion {
+	left: 250px;
+}
+.presentacion {
+    right: 250px;
+}
+.redaccion {
+	left: 120px;
+}
+.enlace2 {
+	right: 450px;
+}
+.enlace3 {
+	right: 650px;
+}
+}
+
+@media screen and (min-width: 1200px) {
+.redaccion {
+	left: 200px;
+}
+
+}
+
+@media screen and (min-width: 1300px) {
+.redaccion {
+	left: 230px;
+}
+.enlace2 {
+	right: 400px;
+}
+.enlace3 {
+	right: 800px;
+}
+}
+
+@media screen and (min-width: 1430px) {
+.descripcion {
+	left: 300px;
+}
+.presentacion {
+    right: 300px;
+}
+
+.redaccion {
+	left: 270px;
+}
+.enlace2 {
+	right: 400px;
+}
+.enlace3 {
+	right: 900px;
+}
+}
+@media screen and (min-width: 1590px) {
+.descripcion {
+	left: 400px;
+}
+.presentacion {
+    right: 400px;
+}
+
+.redaccion {
+	left: 360px;
+}
+.enlace2 {
+	right: 500px;
+}
+.enlace3 {
+	right: 900px;
+}
+
+}
+@media screen and (min-width: 1910px) {
+.descripcion {
+	left: 500px;
+}
+.presentacion {
+    right: 500px;
+}
+
+.redaccion {
+	left: 500px;
+}
+.enlace2 {
+	right: 700px;
+}
+.enlace3 {
+	right: 1100px;
+}
+
+}
